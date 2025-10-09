@@ -10,18 +10,9 @@
 {% endblock %}
 
 {% block content %}
-  <h2>Mis Proyectos</h2>
-  <div class="grid">
-    {% for project in projects %}
-      <div class="card">
-        <img src="{{ project.image.url }}" alt="{{ project.title }}">
-        <h3>{{ project.title }}</h3>
-        <p>{{ project.description }}</p>
-        {% if project.link_github %}<a href="{{ project.link_github }}">GitHub</a>{% endif %}
-        {% if project.link_demo %}<a href="{{ project.link_demo }}">Demo</a>{% endif %}
-      </div>
-    {% empty %}
-      <p>Aún no hay proyectos publicados.</p>
-    {% endfor %}
-  </div>
+  <h1>Juan Diego Pino</h1>
+  <h2>Ingeniero Informático</h2>
+  <img src="{% static 'images/profile.jpg' %}"/>
+  <br/>
+  
 {% endblock %}

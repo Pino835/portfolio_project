@@ -2,8 +2,11 @@ from django.shortcuts import render
 from .models import Project
 
 def home(request):
+    return render(request, 'core/home.html')
+
+def projects(request):
     projects = Project.objects.all().order_by('-date')
-    return render(request, 'core/home.html', {'projects':projects})
+    return render(request, 'core/projects.html', {'projects':projects})
 
 def about(request):
     return render(request, 'core/about.html')
