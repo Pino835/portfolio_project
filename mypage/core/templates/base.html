@@ -13,12 +13,12 @@
   <header>
     <h1>Portafolio</h1>
     <nav>
-      <a href="{% url 'home' %}">Inicio</a>
-      <a href="{% url 'about' %}">Sobre mí</a>
-      <a href="{% url 'projects' %}">Proyectos</a>
-      <a href="{% url 'contact' %}">Contacto</a>
+      <a href="{% url 'home' %}"><i class="fa-solid fa-house"></i> Inicio</a>
+      <a href="{% url 'about' %}"><i class="fa-solid fa-circle-user"></i> Sobre mí</a>
+      <a href="{% url 'projects' %}"><i class="fa-solid fa-folder-open"></i></i> Proyectos</a>
+      <a href="{% url 'contact' %}"><i class="fa-solid fa-address-book"></i> Contacto</a>
     </nav>
-  </header>
+  </header> 
 
   <main>
     {% block content %}{% endblock %}

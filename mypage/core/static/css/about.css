@@ -1,4 +1,125 @@
-main{
+main {
     margin-left: 20px;
     margin-right: 20px;
+}
+
+#skills {
+  max-width: 900px;   /* ancho máximo del bloque */
+  margin: 0 auto;     /* centra el contenedor */
+}
+
+#skills > ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columnas iguales */
+  gap: 25px 40px; /* espacio entre columnas y filas */
+  list-style: disc; /* quita los puntos de la lista principal */
+  padding-left: 0;
+}
+
+/* Sublistas (las internas) */
+#skills ul ul {
+  list-style-type: circle; /* conserva viñetas */
+  padding-left: 20px;    /* sangría */
+  margin-top: 8px;       /* separación del título */
+}
+
+#work {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#work ul {
+  list-style: disc;       /* quita los puntos */
+  padding-left: 0;
+  margin: 0;
+}
+
+#work > ul > li {
+  margin-bottom: 30px;    /* espacio entre cada experiencia */
+  line-height: 1.6;
+}
+
+#work ul ul {
+  list-style-type: circle;  /* sin puntos para fechas */
+  padding-left: 20px;
+  margin-top: 8px;
+}
+
+#work ul ul li {
+  font-weight: bold;      /* resalta las fechas */
+  margin-bottom: 8px;
+}
+
+#work p {
+  margin: 0 0 10px 20px;  /* sangría hacia la derecha y espacio abajo */
+  text-align: justify;    /* justifica el texto */
+}
+
+#education {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#education ul {
+  list-style: disc;       /* quita los puntos */
+  padding-left: 0;
+  margin: 0;
+}
+
+#education > ul > li {
+  margin-bottom: 30px;    /* espacio entre cada experiencia */
+  line-height: 1.6;
+}
+
+#education ul ul {
+  list-style-type: circle;  /* sin puntos para fechas */
+  padding-left: 20px;
+  margin-top: 8px;
+}
+
+#education ul ul li {
+  font-weight: bold;      /* resalta las fechas */
+  margin-bottom: 8px;
+}
+
+#add {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#add ul {
+  list-style: disc;       /* quita los puntos */
+  padding-left: 0;
+  margin: 0;
+}
+
+#add > ul > li {
+  margin-bottom: 30px;    /* espacio entre cada experiencia */
+  line-height: 1.6;
+}
+
+#add ul ul {
+  list-style-type: circle;  /* sin puntos para fechas */
+  padding-left: 20px;
+  margin-top: 8px;
+}
+
+#add ul ul li {
+  font-weight: bold;      /* resalta las fechas */
+  margin-bottom: 8px;
+}
+
+.btn-download {
+  display: inline-block;
+  background-color: #0077ff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-download:hover {
+  background-color: #005fcb;
 }
