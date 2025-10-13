@@ -10,7 +10,7 @@
 {% endblock %}
 
 {% block content %}
-  <h1>Sobre mí</h1>
+  <h2>Sobre mí</h2>
   <p style="text-align: justify;">
     Profesional que está iniciando su carrera, enfocado en el aprendizaje continuo y el desarrollo de soluciones
     tecnológicas. Durante mi formación, adquirí habilidades en desarrollo web, análisis de bases de datos,
@@ -19,6 +19,13 @@
     el campo.
   </p>
 
+  <hr/>
+
+  <h2>Video</h2>
+  <div id="video">
+    <video src={% static 'videos/video.mp4' %} width="420" height="340" controls></video>
+  </div>
+  
   <hr/>
 
   <h2>Habilidades Técnicas</h2>

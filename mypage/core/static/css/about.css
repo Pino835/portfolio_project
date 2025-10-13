@@ -3,6 +3,16 @@ main {
     margin-right: 20px;
 }
 
+p {
+  line-height: 1.5;
+}
+
+#video {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
 #skills {
   max-width: 900px;   /* ancho máximo del bloque */
   margin: 0 auto;     /* centra el contenedor */
@@ -95,7 +105,7 @@ main {
 
 #add > ul > li {
   margin-bottom: 30px;    /* espacio entre cada experiencia */
-  line-height: 1.6;
+  line-height: 1.5;
 }
 
 #add ul ul {

@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / compiled files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Logs
+*.log
+*.pot
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Databases
+db.sqlite3
+
+# Media and Static files (if served locally and not part of the project source)
+media/
+static/
+
+# Local settings (containing sensitive information)
+local_settings.py
+
+#Variables
+.env
