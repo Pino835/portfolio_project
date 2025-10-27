@@ -7,7 +7,7 @@ from core import views
 
 urlpatterns = [
     path('', views.redirect_to_mypage),
-    path('admin/', admin.site.urls),
+    path('portafolio_admin_jdp/', admin.site.urls),
     path('mypage/', include('core.urls')),
 ]
 
